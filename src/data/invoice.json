@@ -1,0 +1,449 @@
+{
+  "invoice_id": "5353",
+  "customer_id": "343",
+  "payment_id": "0005353/000343",
+  "created_at": "2019-10-10",
+  "payment_before": "2019-11-10",
+  "from": {
+    "companyname": "Vuurpijl Beheer BV",
+    "address": {
+      "street": "Lagedijk",
+      "housenr": "11",
+      "housenrextra": "A",
+      "zipcode": "2064 KV",
+      "city": "Spaarndam",
+      "country": "NL"
+    },
+    "kvk": "3554343",
+    "vat": "NL35353543534",
+    "email": "info@vuurpijlbeheer.nl",
+    "www": "https://www.vuurpijlbeheer.nl",
+    "telephone": "0651236132"
+  },
+  "to": {
+    "companyname": "My Customer BV",
+    "contactperson": "Mr. M. Jansen",
+    "department": "Finance",
+    "address": {
+      "street": "Teststreet",
+      "housenr": "61",
+      "housenrextra": "C",
+      "zipcode": "1922 XX",
+      "city": "Testtown",
+      "country": "NL"
+    },
+    "kvk": "3343242",
+    "vat": "NL11111111111",
+    "email": "info@customeremail.com"
+  },
+  "extra": {
+    "purchase_oder": "AB/34234A"
+  },
+  "line_items": [
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    },
+    {
+      "items": 4,
+      "units": "items",
+      "description": "Boxes of items",
+      "item_price": 10,
+      "item_total_price": 40,
+      "vat_perc": 21,
+      "vat_amount": 4.8,
+      "item_total_price_inc_vat": 44.8
+    }
+  ],
+  "totals": {
+    "price_ex_vat": 1600,
+    "vat_amount": 336,
+    "price_inc_vat": 1936
+  }
+}
