@@ -2,14 +2,6 @@
   "name": "paymarkinvoice",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
-  "scripts": {
     "build": "ng build --prod --extraWebpackConfig webpack.extra.js --single-bundle=true"
   },
   "private": true,
@@ -22,10 +14,12 @@
     "@angular/platform-browser": "~8.2.9",
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
+    "@biesbjerg/ngx-translate-extract-marker": "^1.0.0",
     "@biesbjerg/ngx-translate-po-http-loader": "^3.1.0",
     "@ngx-translate/core": "^11.0.1",
     "bootstrap": "^4.3.1",
     "ngx-build-plus": "^8.1.4",
+    "paper-css": "^0.4.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

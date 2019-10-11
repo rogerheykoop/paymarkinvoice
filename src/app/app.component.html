@@ -1,15 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Paymarkinvoice</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-
-  <nav class="navbar navbar-expand-md bg-light fixed-top">
+    <style>
+        {{ css }}
+        </style>
+        <nav class="navbar navbar-expand-md bg-light fixed-top">
     <a class="navbar-brand" href="#">
        Navbar
     </a>
@@ -75,12 +67,37 @@
     </div>
  </main>
  BLA
+ <pre>
+    {{ css }}
+</pre>
  {{ invoicedata["invoice_id"]}}
 
- {{test}}
- <div *ngFor="let item of invoicedata.line_items; index as i;">
-  <div>X {{ item.description }}</div>
+    <div class="row">
+        <div class="col-md-2 bg-dark text-light lineitemheader"></div>
+        <div class="col-md-5 bg-dark text-light lineitemheader">{{ "Description" | translate}}</div>
+        <div class="col-md-1 bg-dark text-light lineitemheader">{{ "Price excl. VAT" | translate}}</div>
+        <div class="col-md-1 bg-dark text-light lineitemheader">{{ "Total Price" | translate}}</div>
+        <div class="col-md-1 bg-dark text-light lineitemheader">{{ "VAT Percentage" | translate }}%</div>
+        <div class="col-md-1 bg-dark text-light lineitemheader">{{ "VAT Amount" | translate }}</div>
+        <div class="col-md-1 bg-dark text-light lineitemheader">{{ "Total price incl. VAT" | translate }}</div>
+      </div>
+ <div class="lineitem-row" *ngFor="let item of invoicedata.line_items; index as i;">
+      <div class="row">
+    <div class="col-md-2 light">{{item.items}} {{item.units}}</div>
+    <div class="col-md-5 light">{{item.description}}</div>
+    <div class="col-md-1 light">{{item.item_price | currency:item.currency:'symbol-narrow'}}</div>
+    <div class="col-md-1 light">{{item.item_total_price  | currency:item.currency:'symbol-narrow'}}</div>
+    <div class="col-md-1 light">{{item.vat_perc}}%</div>
+    <div class="col-md-1 light">{{item.vat_amount  | currency:item.currency:'symbol-narrow'}}</div>
+    <div class="col-md-1">{{item.item_total_price_inc_vat  | currency:item.currency:'symbol-narrow'}}</div>
+  </div>
  </div>
-
-</body>
-</html>
+<div class="row">
+    <div class="col-md-2 lineitemfooter">{{"Total" | translate}}:</div>
+    <div class="col-md-5 lineitemfooter"></div>
+    <div class="col-md-1 lineitemfooter"></div>
+    <div class="col-md-1 lineitemfooter">{{invoicedata.totals.price_ex_vat | currency:invoicedata.totals.currency:'symbol-narrow'}}</div>
+    <div class="col-md-1 lineitemfooter"></div>
+    <div class="col-md-1 lineitemfooter">{{invoicedata.totals.vat_amount | currency:invoicedata.totals.currency:'symbol-narrow'}}</div>
+    <div class="col-md-1 lineitemfooter bold">{{invoicedata.totals.price_inc_vat | currency:invoicedata.totals.currency:'symbol-narrow'}}</div>
+  </div>
