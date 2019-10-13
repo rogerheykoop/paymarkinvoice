@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@page { size: A4 }
+
+body div {
+  background-color: white;
+}
+
+div.lineitemfooter{
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  font-size: 120%;
+}
+
+
+@media screen {
+  div.pageHeader {
+    display: block;
+  }
+  div.pageFooter {
+    display: block;
+  }
+
+}
+@media pxrint {
+  #page-one, .pageFooter, .page-break
+  {
+  display: block;
+  color:red;
+  font-family:Arial;
+  font-size: 16px;
+  text-transform: uppercase;
+  }
+.page-break
+  {
+  page-break-before:always;
+  }
+
+
+  div.pageFooter {
+    position: fixed;
+    bottom: 0;
+  }
+  div.pageHeader {
+    position: fixed;
+    bottom: 0;
+  }
+
+}

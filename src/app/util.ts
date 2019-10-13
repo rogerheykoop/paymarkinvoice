@@ -1,24 +1,20 @@
 import invoice from '../data/invoice.json';
 
-export  function setStyle() {
-  let styles = invoice.style.css;
-  let mycss = [];
-  for (let selector in styles) {
-    let style = selector + " {";
-    if (selector == "@import")
-    {
-      style = selector + " " + styles[selector] + ";";
-    }
-    else
-    {
-      for (let prop in styles[selector])
-      {
-        style += prop + ":" + styles[selector][prop] + ";\n";
+export function setStyle() {
+  const mystyles = invoice.style.css;
+  const mycss = [];
+  for (const selector of Object.keys(mystyles)) {
+    let style = selector + ' {';
+    if (selector === '@import') {
+      style = selector + ' ' + mystyles[selector] + ';';
+    } else {
+      for (const prop of Object.keys(mystyles[selector])) {
+        style += prop + ':' + mystyles[selector][prop] + ';\n';
       }
-      style += "}";
+      style += '}';
     }
     mycss.push(style);
   }
   console.log(mycss);
-  return mycss.join("\n");
-};
+  return mycss.join('\n');
+}

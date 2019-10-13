@@ -18,6 +18,7 @@
     "@biesbjerg/ngx-translate-po-http-loader": "^3.1.0",
     "@ngx-translate/core": "^11.0.1",
     "bootstrap": "^4.3.1",
+    "bwip-angular2": "^1.0.6",
     "ngx-build-plus": "^8.1.4",
     "paper-css": "^0.4.1",
     "rxjs": "~6.4.0",
